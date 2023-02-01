@@ -1,3 +1,24 @@
+// module6_homework-1
+let arr = [1, 2, 3, 4, 5, 2, "dsfd"];
+function count(arr) {
+  let count1 = 0;
+  let count2 = 0;
+  for (let i = 0; i < arr.length; i++) {
+     if (arr[i] % 2 === 0 && typeof arr[i] == "number") {
+       count1++;
+     }else if(typeof arr[i] !== "number")
+      res = "Not a Number"
+    else{
+       count2++;
+
+     }
+  }
+   console.log(count1);
+  console.log(count2);
+  console.log(res)
+}
+count(arr);
+
 // module6_homework-2
 
 function primeNumb(num) {
